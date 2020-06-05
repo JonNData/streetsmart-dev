@@ -43,7 +43,7 @@ cl_models = sorted(df_cl.model.unique())
 @app.get("/")
 def root():
     return {"Street": "Smarts",
-            "Version": "Lite",
+            "Version": "Developer",
             "API": "/docs"}
 
 
@@ -62,7 +62,8 @@ def predict(make:str="Ford", model:str="F150 Pickup 4WD", year:int=2005):
     input = pd.DataFrame({
         "year": [year],
         "manufacturer": [manufacturer],
-        "model": [model_fz]
+        "model": [model_fz],
+        "odometer": 10000
         })
     
     pred = test_model.predict(input)
