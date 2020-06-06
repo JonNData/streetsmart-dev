@@ -36,7 +36,7 @@ app = FastAPI()
 test_model = load("targetiterrobustforest.joblib")
 
 # Load the craigslist cleaned data
-df_cl = pd.read_csv("data/model_and_image_url_lookup.csv")
+df_cl = pd.read_csv("https://raw.githubusercontent.com/Lambda-School-Labs/street-smarts-ds/master/data/model_and_image_url_lookup.csv")
 # List of unique CL cars
 cl_models = sorted(df_cl.model.unique())
 
