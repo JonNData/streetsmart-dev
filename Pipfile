@@ -19,6 +19,7 @@ python-dotenv = "*"
 joblib = "*"
 scikit-learn = "~=0.22.2"
 uvloop = "*"
+httptools = "*"
 
 [requires]
 python_version = "3.7"
