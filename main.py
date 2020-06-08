@@ -7,7 +7,7 @@ import os
 import pickle
 from dotenv import load_dotenv
 import pandas as pd
-from fuzzywuzzy import fuzz, process
+from rapidfuzz import fuzz, process
 from joblib import load
 import requests
 import numpy as np
