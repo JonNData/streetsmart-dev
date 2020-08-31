@@ -4,7 +4,7 @@
 
 You can find the project at [streetsmarts.online](www.streetsmarts.online).
 
-![streetsmartsgif](https://raw.githubusercontent.com/willstauffernorris/willstauffernorris.github.io/master/img/streetsmartsgiphy.gif)   
+![streetsmarts_demo](https://media.giphy.com/media/fw8hWPw7M7jsvtq1QN/giphy.gif)
 
 ## Contributors
 
