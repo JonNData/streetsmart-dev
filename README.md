@@ -2,7 +2,7 @@
 
 # Street Smarts #
 
-You can find the project at [streetsmarts.online](www.streetsmarts.online).
+You can find the project at [streetsmarts.online](http://www.streetsmarts.online).
 
 ![streetsmarts_demo](https://media.giphy.com/media/fw8hWPw7M7jsvtq1QN/giphy.gif)
 
